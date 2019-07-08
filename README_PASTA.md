@@ -1,6 +1,7 @@
 // PASTA
-// PArticle Shapes & Textures Analyzer
-/* 
+/*     
+/* PArticle Shapes and Textures Analyzer
+ * Authors: Pier Paolo Comida, Pierre-Simon Ross
  *  
  * This script works on (Fiji Is Just) ImageJ, and the use is not therefore guaranteed with the simple ImageJ app.
  * Plugins to be installed for the macro to work correctly are: i) Read and Write Excel, ii)
