@@ -4,7 +4,7 @@
  * Authors: Pier Paolo Comida(a), Pierre-Simon Ross
  * Contact: (a) piercomida@gmail.com
  *  OVERVIEW
- * This script has been developed on (Fiji Is Just) ImageJ, and it has not been tested with the standard version of ImageJ.
+ * This script has been developed on (Fiji© Is Just) ImageJ, and it has not been tested with the standard version of ImageJ©.
  * In order to work correctly, the script needs the plugin "Read and Write Excel". The plugin can be installed from the Fiji menu Help->Update.
  * 
  * Description - This script allows to measure shape parameters, cristallinity and vesicularity on 2-D cross sections of juvenile particles embedded in polished grain mounts and scanned using BSE-SEM.
