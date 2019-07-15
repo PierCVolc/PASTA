@@ -2,18 +2,16 @@
 /*     
 /* PArticle Shapes and Textures Analyzer
  * Authors: Pier Paolo Comida, Pierre-Simon Ross
+ * Contact: piercomida@gmail.com
  *  
- * This script works on (Fiji Is Just) ImageJ, and the use is not therefore guaranteed with the simple ImageJ app.
- * Plugins to be installed for the macro to work correctly are: i) Read and Write Excel, ii)
+ * This script has been developed on (Fiji Is Just) ImageJ, and the use is not therefore guaranteed with the simple ImageJ app.
+ * In order to work correctly, the script needs the plugin "Read and Write Excel". The plugin can be installed from the Fiji menu Help->Update
  * 
- * Description - This macro allows to measure shape parameters, cristallinity and vesicularity from 2-D surface of  
- * juvenile particles embedded in polished grain mounts and scanned using QSBD-SEM.
- * The macro requires minimal user actions just at the beginning of the process.
- * The input images to be fed in the macro are pre-processed version of the original
- * output from the SEM, when the background (area between the particles) has been cleaned and
- * substituted with a homogeneous, RGB background color while the particles are in grayscale.
- * The macro consists of three main phases organized in two steps:
- * Step 1 extract the single particles from the input multiparticle image,
+ * Description - This script allows to measure shape parameters, cristallinity and vesicularity on 2-D cross sections  
+ * of juvenile particles embedded in polished grain mounts and scanned using QSBD-SEM.
+ * The full processing procedure consists of three steps:
+ * Step 1 - Extract single particles as separate images from input multi-particle images. Input images must have an homogeneous inter-particle area of RGB color intensity.
+ * Step 2 - Single particle images are used to generate a binary form image for measuring shape parameters, and a grayscale segmented image to measure whole 2-D vesicularity and 2-D crystallinity,
  * each particle is then filtered and processed to create a binary form file and a homogeneous grayscale version of the internal texture,
  * Step 2 takes the binary form and feature grayscale files to measure shape parameters 
  * and cristallinity/vesicularity (calculated as area fraction of the whole particle area), respectively.
