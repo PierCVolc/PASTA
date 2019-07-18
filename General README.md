@@ -1,4 +1,4 @@
-<a href="https://doi.org/10.5281/zenodo.3336336"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3336336.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.3338283"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3338283.svg" alt="DOI"></a>
 
 This repository contains tools for the analysis of juvenile pyroclasts for fragmentation studies in Volcanology. The tools are primarily designed to prepare and process SEM images of particle cross-sections, but the use could be extended to other types of images.
 
